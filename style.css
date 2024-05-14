@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Font Styles */
+/* .young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+/* .outfit-<uniquifier> {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f3e5d7;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.6rem;
+  margin: 12.4rem 0;
+}
+
+.main-container {
+  border: 1px solid red;
+  padding: 4rem;
+  max-width: 70.4rem;
+}
+.recipe_container {
+  /* border: 1px solid blue; */
+  max-width: 60.5rem;
+}
+
+.main-container,
+.recipe_container {
+  margin: 0 auto;
+}
+
+.recipe_img {
+  border-radius: 12px;
+  max-width: 100%;
+}
+
+.recipe_title {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+}
