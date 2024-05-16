@@ -26,6 +26,7 @@ html {
 
 body {
   background-color: #f3e5d7;
+  color: #5f564d;
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.6rem;
@@ -53,8 +54,61 @@ body {
 }
 
 .recipe_title {
+  color: #312e2c;
   font-family: "Young Serif", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 4rem;
+  padding: 4rem 0 2.4rem 0;
+}
+
+.recipe_intro {
+  margin-bottom: 3.2rem;
+}
+
+.prep_heading,
+li::marker {
+  color: #7a284e;
+}
+
+.prep_title {
+  margin-left: 2.7rem;
+}
+
+.bold {
+  color: #312e2c;
+  font-weight: bold;
+}
+
+.section_heading {
+  color: #854632;
+}
+
+.style_heading {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.heading {
+  padding-bottom: 1.6rem;
+}
+
+ul {
+  list-style-type: disc #7a284e;
+}
+
+ol {
+  list-style-type: decimal #7a284e;
+}
+
+ol > li,
+ul > li {
+  padding-left: 1.4rem;
+  margin-left: 25px;
+}
+
+li {
+  margin-bottom: 0.8rem;
+  line-height: 2.5rem;
 }
