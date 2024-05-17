@@ -67,8 +67,10 @@ body {
 }
 
 .prep_heading,
+.kcal,
 li::marker {
   color: #7a284e;
+  font-weight: bold;
 }
 
 .prep_title {
@@ -81,7 +83,7 @@ li::marker {
 }
 
 .bold {
-  color: #312e2c;
+  color: #5f564d;
   font-weight: bold;
 }
 
@@ -97,7 +99,11 @@ li::marker {
 }
 
 .heading {
-  padding-bottom: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.nutrition_info {
+  padding-bottom: 2.4rem;
 }
 
 ul {
@@ -117,4 +123,17 @@ ul > li {
 li {
   margin-bottom: 0.8rem;
   line-height: 2.5rem;
+}
+
+.table_row {
+  display: flex;
+  border-bottom: 1px solid #e3ddd7;
+}
+.table_cell {
+  flex: 1;
+  padding: 1.2rem 3.2rem;
+}
+
+.table_row:last-child {
+  border-bottom: 0px;
 }
