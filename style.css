@@ -34,6 +34,7 @@ body {
 }
 
 .main-container {
+  background-color: white;
   padding: 4rem;
   max-width: 70.4rem;
 }
@@ -65,6 +66,9 @@ body {
   margin-bottom: 3.2rem;
 }
 
+.prep_title {
+  background-color: #e6e1e4;
+}
 .prep_heading,
 .kcal,
 li::marker {
@@ -73,7 +77,7 @@ li::marker {
 }
 
 .prep_title {
-  margin: 0rem 0rem 3.4rem 2.7rem;
+  padding: 2.8rem 2.8rem 3.4rem 2.7rem;
 }
 
 .ingredients_section,
