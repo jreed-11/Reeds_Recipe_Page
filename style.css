@@ -6,20 +6,6 @@
   padding: 0;
 }
 
-/* Font Styles */
-/* .young-serif-regular {
-    font-family: "Young Serif", serif;
-    font-weight: 400;
-    font-style: normal;
-  } */
-
-/* .outfit-<uniquifier> {
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
-
 html {
   font-size: 62.5%;
 }
@@ -39,7 +25,6 @@ body {
   max-width: 70.4rem;
 }
 .recipe_container {
-  /* border: 1px solid blue; */
   max-width: 60.5rem;
 }
 
